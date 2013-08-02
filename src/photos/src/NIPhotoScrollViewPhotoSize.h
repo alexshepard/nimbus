@@ -25,7 +25,10 @@ typedef enum {
   
   // A smaller version of the image.
   NIPhotoScrollViewPhotoSizeThumbnail,
-  
+
+  // A large version of the image.
+  NIPhotoScrollViewPhotoSizeLarge,
+	
   // The full-size image.
   NIPhotoScrollViewPhotoSizeOriginal,
 } NIPhotoScrollViewPhotoSize;
